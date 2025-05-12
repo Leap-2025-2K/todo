@@ -4,7 +4,7 @@ export const Filter = ({ setFilter }) => {
     <div style={{ display: "flex", gap: "20px" }}>
       {filterOptions.map((filter, index) => (
         <div key={index}>
-          <button onClick={() => setFilters(filter)}>{filter}</button>
+          <button onClick={() => setFilter(filter)}>{filter}</button>
         </div>
       ))}
     </div>
